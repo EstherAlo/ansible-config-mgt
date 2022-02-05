@@ -10,7 +10,7 @@
         name: wireshark
         state: latest
 
-- name: update LB server
+- name: update LB, db
   hosts: lb, db
   become: yes
   become_user: root
