@@ -10,7 +10,7 @@
       name: wireshark
       state: removed
 
-- name: update LB, db
+- name: update lB, db
   hosts: lb, db
   remote_user: ubuntu
   become: yes
