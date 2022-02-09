@@ -8,7 +8,7 @@ dynamic-assignments
   tags:
     - always
 
--  hosts: uat-webservers
+- hosts: uat-webservers
 - name: Webserver assignment
   import_playbook: ../static-assignments/uat-webservers.yml
 
