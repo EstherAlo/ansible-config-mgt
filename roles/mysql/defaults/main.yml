@@ -114,9 +114,9 @@ mysql_databases: []
 
 # Users.
 mysql_users: []
- - name: admin
+ - name: webaccess
    host: "%"
-   password: admin
+   password: password
    priv: "tooling.*:ALL"
 
 # Replication settings (replication is only enabled if master/user have values).
