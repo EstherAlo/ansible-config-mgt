@@ -113,11 +113,11 @@ mysql_databases: []
 #     replicate: 1
 
 # Users.
-mysql_users: []
+ mysql_users: []
  - name: webaccess
-   host: "%"
+   host: 0.0.0.0
    password: password
-   priv: "tooling.*:ALL"
+   priv: "*.*:ALL"
 
 # Replication settings (replication is only enabled if master/user have values).
 mysql_server_id: "1"
