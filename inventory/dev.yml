@@ -1,7 +1,0 @@
-[nginx]
-172.31.29.132 ansible_ssh_user=ubuntu
-
-[db]
-172.31.16.213 ansible_ssh_user=ubuntu 
-
-
